@@ -73,8 +73,45 @@ Armazenamento Temporário (SSD): Discos locais não persistentes.****
 
 ====================================================================================================================================================================================================================================================================
 
+Aula 11 - Identidade, Acesso e Segurança 
 
 
+Microsoft Defender for Cloud
+Função principal:
 
+Monitoramento contínuo de segurança em ambientes Azure, híbridos (on-premises) e multicloud.
+
+Identifica ameaças em tempo real (vulnerabilidades, ataques, configurações inseguras).
+Principais recursos:
+
+Proteção contra ameaças:
+
+Detecta atividades maliciosas (ex: brute force, malware, tráfego suspeito).
+
+Usa IA para análise comportamental.
+
+Gerenciamento de vulnerabilidades:
+
+Escaneia VMs, containers, SQL DBs em busca de falhas conhecidas.
+
+Recomendações de segurança:
+
+Nota de segurança (score) baseada no benchmark CIS.
+
+Sugere correções (ex: habilitar MFA, atualizar sistemas).
+
+Integração com ferramentas:
+
+Conecta-se a Azure Sentinel (SIEM/SOAR) para resposta a incidentes.
+
+Compatível com AWS e GCP (multicloud).
+
+Conformidade:
+
+Relatórios para padrões como NIST, ISO 27001, GDPR.
+
+Como habilitar:
+
+No portal Azure, acesse Defender for Cloud > Ativar Defender Plans (camada gratuita ou paga).
 
 
