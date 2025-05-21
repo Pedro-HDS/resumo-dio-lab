@@ -42,3 +42,10 @@ Aula 5 - IaaS, PaaS e SaaS e Responsabilidades.
 
 
 Aula 6 - Para configurar uma instância de banco de dados no Azure, acesse o portal Azure > "Criar um recurso" > "Bancos de dados" > escolha o serviço (SQL Database, MySQL, PostgreSQL, etc.) > preencha nome, servidor (ou crie um novo), tipo de banco, tamanho, credenciais de acesso > configure rede (IPs permitidos) > revise e crie.
+
+Aula 7 - Componentes da arquitetura da Azure.
+
+Aula 8 e 9 -  Componentes de computação e rede, uso de Zonas de Disponibilidade Rede Virtual (VNet): Isola recursos em uma rede privada.
+Azure Load Balancer: Distribui tráfego entre VMs. Gateway de VPN/Azure ExpressRoute: Conexão segura entre nuvem e local.
+
+Aula 10 - 
