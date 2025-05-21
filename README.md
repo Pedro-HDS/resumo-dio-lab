@@ -48,4 +48,33 @@ Aula 7 - Componentes da arquitetura da Azure.
 Aula 8 e 9 -  Componentes de computação e rede, uso de Zonas de Disponibilidade Rede Virtual (VNet): Isola recursos em uma rede privada.
 Azure Load Balancer: Distribui tráfego entre VMs. Gateway de VPN/Azure ExpressRoute: Conexão segura entre nuvem e local.
 
-Aula 10 - 
+====================================================================================================================================================================================================================================================================
+Aula 10 - Entendo escalabilidade, tamanho das VMs e custos:
+
+Séries de VMs (selecione conforme a carga de trabalho):
+
+Série B (Burstable): Para cargas variáveis (ex: dev/teste).
+
+Série D/Dsv3: Uso geral (CPU balanceado).
+
+Série E/Es_v4: Memória otimizada (aplicações em RAM).
+
+Série Fsv2: Computação otimizada (alta CPU).
+
+Série NCv3/NV: GPUs (IA, renderização).
+
+Fatores de Dimensionamento:
+
+vCPUs: Núcleos virtuais (ex: 2, 4, 8, 16).
+
+Memória RAM: De 2 GB a 3,8 TB (depende da série).
+
+Armazenamento Temporário (SSD): Discos locais não persistentes.****
+
+====================================================================================================================================================================================================================================================================
+
+
+
+
+
+
