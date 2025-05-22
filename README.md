@@ -115,3 +115,71 @@ Como habilitar:
 No portal Azure, acesse Defender for Cloud > Ativar Defender Plans (camada gratuita ou paga).
 
 
+
+=================================================== Entrega Desafio- Análise de Sentimentos com Language Studio no Azure AI  =============================================================
+
+
+
+A Análise de Sentimentos é uma técnica de Processamento de Linguagem Natural (NLP) que identifica e classifica opiniões, emoções e intenções em textos. É amplamente usada em redes sociais, chatbots, pesquisas de satisfação e análise de feedback.
+
+O Azure AI Language é um serviço da Microsoft que oferece ferramentas de NLP, incluindo:
+
+Análise de Sentimentos
+
+Reconhecimento de Entidades
+
+Extração de Frases-Chave
+
+Detecção de Idioma
+
+O Language Studio é uma interface gráfica que permite usar esses recursos sem escrever código.
+
+3. Principais Recursos para Análise de Sentimentos
+Classificação de polaridade: Positivo, negativo ou neutro.
+
+Pontuação de confiança: Probabilidade da classificação estar correta.
+
+Análise por frase: Detalha o sentimento em diferentes partes do texto.
+
+Opinião e aspecto (Aspect-Based Sentiment Analysis - ABSA): Identifica sentimentos sobre elementos específicos (ex.: "A bateria do celular é ruim, mas a tela é ótima").
+
+4. Como Usar no Language Studio
+Acessar o Azure AI Language (portal.azure.com).
+
+Criar um recurso de Language Service.
+
+Abrir o Language Studio (language.cognitive.azure.com).
+
+Selecionar "Análise de Sentimentos" e inserir o texto para análise.
+
+Visualizar resultados: Sentimento geral, scores e análise por frase.
+
+5. Integração com Aplicações
+API REST: Usar o endpoint do serviço para integrar a análise em apps.
+
+SDKs (Python, C#, Java): Facilitam a implementação em código.
+
+Power Automate/Azure Logic Apps: Automatizar análises em fluxos de trabalho.
+
+6. Casos de Uso
+Monitoramento de redes sociais: Avaliar reações a marcas.
+
+Atendimento ao cliente: Priorizar reclamações.
+
+Pesquisas de mercado: Analisar feedback de produtos.
+
+7. Vantagens do Azure AI Language
+Pré-treinado: Funciona bem sem necessidade de treinamento personalizado.
+
+Escalável: Processa grandes volumes de texto.
+
+Fácil integração: Compatível com outros serviços Azure.
+
+8. Limitações
+Idiomas suportados: Melhor desempenho em inglês; outros idiomas podem ter precisão menor.
+
+Contexto complexo: Ironia, sarcasmo e gírias podem gerar falsos positivos.
+
+Pra quem quer integrar em app, tem API REST e SDKs (Python, C#, etc.), então dá pra botar isso num chatbot, sistema de suporte ou até num dashboard de análise de redes sociais. O Azure já vem com modelos pré-treinados, então funciona bem pra inglês e mais ou menos pra português (depende do contexto – sarcasmo ainda pega meio mal).
+
+======================================================================================================================================================
