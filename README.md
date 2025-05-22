@@ -183,3 +183,42 @@ Contexto complexo: Ironia, sarcasmo e gírias podem gerar falsos positivos.
 Pra quem quer integrar em app, tem API REST e SDKs (Python, C#, etc.), então dá pra botar isso num chatbot, sistema de suporte ou até num dashboard de análise de redes sociais. O Azure já vem com modelos pré-treinados, então funciona bem pra inglês e mais ou menos pra português (depende do contexto – sarcasmo ainda pega meio mal).
 
 ======================================================================================================================================================
+
+
+
+=================================================== Entrega Desafio- Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados  =============================================================
+
+É um serviço de busca em nuvem que usa IA para indexar e consultar dados de forma avançada. Com o AI Search, ele vai além da busca tradicional, extraindo informações de textos, imagens e até documentos complexos.
+
+Como Funciona?
+Indexação – Extrai dados de fontes como Blob Storage, SQL DB ou Cosmos DB.
+
+Enriquecimento com IA – Usa modelos de NLP e visão computacional para:
+
+Reconhecer entidades (nomes, lugares).
+
+Extrair palavras-chave.
+
+Analisar imagens (OCR, detecção de objetos).
+
+Busca Inteligente – Consultas com:
+
+Correção ortográfica.
+
+Filtros semânticos (ex.: "encontrar contratos de 2024 relacionados a impostos").
+
+Principais Vantagens
+✔ Escalável – Lida com milhões de documentos.
+✔ Integrado com Azure – Conecta a Azure Functions, Power BI, etc.
+✔ Customizável – Define pesos de relevância e sinônimos.
+
+Casos de Uso
+Busca em sites (e-commerce, portais).
+
+Mineração de documentos corporativos (PDFs, emails).
+
+Aplicações com dados estruturados e não estruturados.
+
+======================================================================================================================================================
+
+
